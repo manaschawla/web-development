@@ -1,0 +1,347 @@
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            background-color: black;
+        }
+        .header{
+                background-image: url('backCards.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+                background-color: black;
+                height: 780px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+        .nav{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        .nav a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .contact{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin-right: 50px;
+        }
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.drop-content{
+    display: none;
+    position: absolute;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(221, 159, 42, 0.2);
+    z-index: 1;
+    background-color: #1f1e1e;
+}
+
+.drop-content a{
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.drop-content a:hover{
+    background-color: white;
+    color: black;
+}
+.dropdown:hover .drop-content {
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: white;
+    color: black;
+}
+.but{
+    display: flex;
+    gap: 50px;
+}
+.dropbtn{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.logo-1{
+    margin-left: 40px;
+    height: 42px;
+}
+.main{
+    margin: 80px 0px 0px 40px;
+
+}
+.text{
+width: 50%;
+}
+.heading{
+    font-size: 60px;
+    color: white;
+}
+.data{
+        font-size: 20px;
+    color: rgb(175, 170, 170);
+    margin-top: 30px;
+}
+.light{
+    margin-top: 70px;
+    height:45px;
+    width: 100px;
+}
+.dark{
+    height: 30px;
+    width: 90px;
+    position: relative;
+    top: -8px;
+    right: 120px;
+}
+.pink-btn{
+    margin-top: 50px;
+}
+.get{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    right: 20px;
+    top: -5px;
+}
+.arrow{
+        position: relative;
+    right: 15px;
+    top: -3px;
+}
+.users{
+    margin-top: 50px;
+     color: white;
+     display: flex;
+     gap: 5px;
+}
+.num{
+    font-size: 60px;
+}
+.addition{
+    color: purple;
+    font-size: 50px;
+    margin: 4px 0px 0px 3px;
+}
+.happy{
+    width: 8%;
+    margin: 10px 0px 0px 4px;
+    font-size: 20px;
+}
+.vector{
+    margin-left: 35px;
+}
+
+.cards{
+    position: relative;
+    left: 600px;
+    bottom: 400px;
+    width: 710px;
+}
+.break{
+    height: 200px;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.logo-2{
+    width: 200px;
+    height: 70px;
+}
+.header-2{
+    height: 1150px;
+    background-color: black;
+
+}
+.text-header-2{
+    display: flex;
+    gap: 60px;
+}
+.text-1{
+margin:200px 0px 0px 80px;
+    font-size: 80px;
+    color: white;
+    width: 60%;
+}
+.color{
+    color: rgb(153, 2, 153);
+}
+.text-2{
+        color: gray;
+    width: 40%;
+    font-size: 25px;
+    margin:280px 30px 0px 80px;
+}
+.dis-card{
+    height: 300px;
+    width: 350px;
+    border: 2px solid white;
+    background-color: rgb(24, 23, 23);
+        margin:200px 30px 0px 80px;
+        display: flex;
+        flex-direction: column;
+                justify-content: center;
+        align-items: center;
+
+}
+.dis-cards-area{
+    display: flex;
+}
+.dollar{
+    height: 130px;
+    width: 130px;
+}
+.text-dis-card{
+    color: white;
+    margin: 30px 0px 0px 0px ;
+}
+.second{
+    position: relative;
+    bottom: 60px;
+    background-color: rgb(109, 109, 109);
+}
+.header-3{
+background-color: white;
+    height: 1100px;
+}
+.heading-3{
+    color: black;
+    font-size: 70px;
+
+    padding-top: 100px;
+    text-align: center;
+}
+.texts-header-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-3-text{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(228, 7, 228);
+}
+.data-heading-3{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: gray;
+    width: 60%;
+}
+.vcards{
+    height: 800px;
+    position: relative;
+    bottom: 60px;
+}
+.header-4{
+    height: 1400px;
+    background-color: black;
+}
+.four{
+    color: white;
+}
+.header-4-span{
+    font-size: 70px;
+    color: white;
+    margin-left: 15px;
+}
+.texts-header-4{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.four-data{
+    font-size: 25px;
+}
+.header-4-card{
+    height: 250px;
+    width: 470px;
+    border: 2px solid white;
+    background-color: rgb(24, 23, 23);
+        margin:150px 30px 0px 80px;
+        display: flex;
+        flex-direction: column;
+}
+.stars{
+    margin: 20px;
+}
+.header-4-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 calc(50% - 20px);
+}
+.review{
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+}
+.name-card{
+        margin: 8px;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.place-card{
+    margin-left: 20px;
+    color: gray;
+    font-size: 15px;
+}
+.header-5{
+    height: 1000px;
+    background-color: black;
+}
+.rectangle6774{
+    position: relative;
+    bottom: 400px;
+    width: 100%;
+    height: 400px;
+}
+.rectangle6773{
+    width: 100%;
+    height: 400px;
+}
+.heading-five{
+    font-size: 60px;
+    color: white;
+    position: relative;
+    bottom: 700px;
+    left: 300px;
+}
+.five-part{
+    font-size: 60px;
+    color: white;
+    position: relative;
+    bottom: 700px;
+    text-align: center;
+}
+.color-five{
+    color: black;
+}
+.five-arrow{
+    position: relative;
+    bottom: 700px;
+    left: 570px;
+    
+}
+.footer{
+    position: relative;
+    bottom: 500px;
+}
