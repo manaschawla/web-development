@@ -1,0 +1,454 @@
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .main{
+            height: 780px;
+            background-color: black;
+        }
+                nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+        .nav{
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        .nav a{
+            color: gray;
+            text-decoration: none;
+        }
+        .logo-1{
+    margin-left: 60px;
+    height: 42px;
+}
+        .login{
+            padding: 10px 25px 10px 25px;
+            border-radius: 8px;
+            color: white;
+            font-size: 18px;
+            background-color: rgb(103, 196, 250);
+            margin-right: 30px;
+        }
+        .heading{
+    margin: 80px 0px 0px 40px;
+
+}
+.text{
+    width: 45%;
+    margin-left: 60px;
+}
+.heading{
+    color: white;
+    font-size: 65px;
+}
+.color{
+    color: rgb(103, 196, 250);
+}
+.data{
+color: gray;
+font-size: 20px;
+margin-left: 40px;
+margin-top: 20px
+}
+.button{
+    margin: 0px 0px 0px 70px;
+}
+.butt{
+    margin: 20px;
+    padding: 15px 45px 15px 45px;
+    border-radius: 12px;
+}
+.one{
+    background-color: rgb(103, 196, 250);
+}
+.two{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.header{
+    display: flex;
+    gap: 20px;
+}
+.spacing{
+    height: 200px;
+    background-color: rgb(36, 36, 36);
+        display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.logo-2{
+    width: 200px;
+    height: 70px;
+}
+.cont{
+    color: black;
+    text-align: center;
+    margin-top: 150px;
+}
+.container{
+height: 700px;
+}
+.d1{
+    text-align: center;
+    color: gray;
+font-size: 20px;
+margin-top: 30px;
+}
+.texting{
+    text-align: center;
+}
+.cards-area{
+    margin: 120px 0px 0px 100px;
+    display: flex;
+    gap: 50px;
+}
+.cards{
+    height: 330px;
+    width: 350px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+.card-write{
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
+.mid{
+    position: relative;
+    top: -35px;
+    background-color: black;
+}
+.head-mid{
+    color:white;
+}
+.container-2{
+    margin-left: 100px;
+    height: 780px;
+}
+.cont-2-head{
+    font-size: 58px;
+    width: 90%;
+}
+.cont-cards-area{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.cont-cards{
+    height: 70px;
+    width: 540px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 40px;
+    justify-content: space-between;
+}
+.card-text{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.text-active{
+color: white;
+background-color: rgb(18, 163, 247);
+}
+.cont-cards-part-one{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.minus{
+    margin-right: 20px;
+}
+
+.cont-cards-part-two{
+    height: 510px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: black;
+}
+.part-two-card{
+    height: 45px;
+    width: 370px;
+    border: 1px solid gray;
+    margin: 15px;
+    border-radius: 40px;
+    font-size: 17px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+.radios{
+    margin: 15px;
+}
+.container-3{
+    background-color: black;
+    height: 1100px;
+}
+.container-3-part-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.container-3-text{
+    margin: auto;
+    width: 65%;
+}
+.cont-3-heading{
+    margin-top: 100px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 50px;
+
+}
+.left{
+    position: relative;
+    left: 140px;
+    top: 120px;
+}
+.right{
+    position: relative;
+    left: -140px;
+    top: 120px;
+}
+.container-3-card-area{
+    margin: 150px;
+    display: flex;
+    gap: 60px;
+    flex-direction: row;
+}
+.container-3-card{
+    height: 600px;
+    border: 1px solid white;
+    width: 300px;
+    border-radius: 25px;
+    background-color: white;
+}
+.container-3-heading{
+    margin: 25px;
+}
+.container-3-price{
+    margin: 25px;
+    font-size: 22px;
+}
+.disp{
+    display: inline;
+    color: black;
+}
+.month{
+    color: gray;
+    margin: 5px;
+    font-size: 25px;
+}
+.container-3-card-text{
+    margin: 10px 0px 0px 25px;
+    font-weight: bold;
+}
+.horizontal-row{
+margin: 25px;
+}
+.container-3-attribute{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.blue-tick{
+    margin-top: 5px;
+}
+.select{
+    
+    margin: 20px 0px 0px 25px;
+    padding: 15px 25px 15px 25px;
+    width: 250px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(9, 163, 252);
+    border-color: rgb(9, 163, 252);
+}
+.actives{
+    background-color: rgb(3, 132, 206);
+color: white;
+ border-color:rgb(3, 132, 206);
+
+}
+.price-active{
+    color: white
+}
+.month-active{
+    color: rgb(170, 168, 168);
+}
+.but-active{
+    color: rgb(9, 163, 252);
+    background-color: white;
+}
+.container-4{
+    height: 800px;
+}
+.container-4-texts{
+    margin: 120px 0px 0px 60px;
+    display: flex;
+    gap: 100px;
+    
+}
+.text-4-heading{
+    font-size: 35px;
+    width: 90%;
+}
+.text-4-data{
+    color: gray;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-right: 60px;
+
+}
+.container-4-cards-area{
+    margin: 120px 0px 0px 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.container-4-cards{
+    height: 350px;
+    width: 550px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+}
+.img-4-card{
+    margin: 25px;
+}
+.bold{
+    font-weight: bold;
+    margin: 25px;
+    color: white;
+}
+.card-name{
+        margin: 10px 0px 0px 25px;
+    color: gray;
+}
+.card-comment{
+    color: white;
+    margin: 25px;
+    font-size: 22px;
+}
+.stars{
+    margin-left: 25px;
+}
+.two-card{
+    background-color: white;
+    color: black;
+}
+.card-two-head{
+    color: black;
+}
+.card-two-comm{
+    color: black;
+}
+.container-5{
+    height: 1200px;
+    background-color: black;
+}
+.container-5-heading{
+    font-size: 55px;
+    width: 80%;
+    padding: 100px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.form-contact{
+    
+    width: 90%;
+    border: 1px solid #1d1d1d;
+    margin: auto;
+    border-radius: 35px;
+      background-color: #1d1d1d;
+  padding: 60px 20px;
+  text-align: center;
+
+
+}
+.signup-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.signup-form input {
+  padding: 14px 20px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  min-width: 220px;
+  background-color: #333;
+  color: white;
+  font-size: 1rem;
+}
+
+.signup-form input::placeholder {
+  color: #aaa;
+}
+
+.signup-form button {
+  padding: 14px 30px;
+  border: none;
+  border-radius: 25px;
+  background-color: #0d6efd; /* Bootstrap primary */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-form button:hover {
+  background-color: #0b5ed7;
+}
+.container-5-horizontal-row{
+width: 90%;
+margin: auto;
+margin-top: 100px;
+height: 2px;
+background-color: gray;
+}
+.container-5-cards-area{
+    margin: 100px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.container-5-cards{
+height: 280px;
+width: 250px;
+}
+.container-5-card-header{
+    color: rgb(233, 230, 230);
+    font-size: 26px;
+    margin: 26px;
+}
+.p-data-5{
+    color: gray;
+    margin: 20px 0px 0px 30px;
+    font-size: 20px;
+}
+.logo-2{
+    margin-left: 100px;
+    height: 50px;
+    width: 150px;
+    margin-top: 40px;
+}
