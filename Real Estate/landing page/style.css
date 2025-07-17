@@ -1,0 +1,54 @@
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .main{
+            height: 780px;
+            background-image: url(../photos/mainBackground.png);
+                  background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+        }
+        .main::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 1;
+}
+
+                nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            z-index: 2;
+                        
+
+        }
+        .nav{
+            z-index: 2;
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            margin-right: 70px;
+        }
+        .nav a{
+            z-index: 2;
+            color: white;
+            text-decoration: none;
+        }
+        .logo{
+            z-index: 2;
+        }
+        .logo-1{
+    margin-left: 70px;
+    height: 42px;
+    z-index: 2;
+}
