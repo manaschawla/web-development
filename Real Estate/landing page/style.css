@@ -52,6 +52,8 @@
     margin-left: 70px;
     height: 42px;
     z-index: 2;
+    height: 55px;
+    width: 250px;
 }
 .header-horizontal-row{
     z-index: 2;
@@ -113,3 +115,312 @@ position: relative;
     background-color: #f7f8fd;
     height: 1800px;
 }
+.main-1-heading{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding-top: 40px;
+    font-size: 55px;
+    color: black;
+}
+.grid-layout{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 8rem;
+    padding: 2rem;
+    background-color: #f7f8fd;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.grid-cards-one{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 35px;
+    background-image: url(../photos/cardImage1.png);
+                      background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.card-img-1{
+    height: 300px;
+    width: 300px;
+}
+.card-data{
+    height: 80px;
+    width: 260px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-data-heading{
+    margin: 10px;
+}
+
+.card-price{
+    color: rgb(131, 5, 250);
+    font-weight: bold;
+    margin-left: 10px;
+}
+.detail{
+    margin-right: 15px;
+    padding: 10px 25px 10px 25px ;
+    background-color: rgb(131, 5, 250);
+    border-radius: 35px;
+    border: none;
+    color: white;
+}
+.card-two{
+    background-image: url(../photos/cardImage2.png);
+    transform: translateY(30px);
+}
+.card-three{
+    background-image: url(../photos/cardImage3.png);
+    transform: translateY(60px);
+}
+.card-four{
+    background-image: url(../photos/cardImage4.png);
+    transform: translateY(60px);
+     
+}
+.card-five{
+    background-image: url(../photos/cardImage5.png);
+    transform: translateY(30px);
+    
+}
+.card-six{
+    background-image: url(../photos/cardImage6.png);
+}
+.card-seven{
+    background-image: url(../photos/cardImage7.png);
+}
+.card-eight{
+    background-image: url(../photos/cardImage8.png);
+    transform: translateY(30px);
+}
+.card-nine{
+    background-image: url(../photos/cardImage8.png);
+    transform: translateY(60px);   
+}
+.main-2{
+    height: 750px;
+     background-color: #f7f8fd;
+     display: flex;
+     gap: 50px;
+}
+.image-area{
+    position: relative;
+}
+.img-area-two, .img-area-one{
+    position: relative;
+}
+.voiled-bg{
+    position: relative;
+}
+.house-1{
+    width: 510px;
+    height: 480px;
+    position: absolute;
+    left: 135px;
+    bottom: 310px;
+border-radius: 20px;
+    
+}
+.text-area-heading{
+    font-size: 55px;
+    position: relative;
+margin-top: 130px;
+}
+.text-area-data{
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+}
+.bid-book{
+        margin-top: 40px;
+    padding: 15px 75px 15px 75px;
+    border-radius: 32px;
+    background-color: rgb(131, 5, 250);
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+.main-3{
+    height: 750px;
+     background-color: #f7f8fd;
+     display: flex;
+     flex-direction: row;
+     gap: 50px;
+     justify-content: center;
+}
+.main-3-text{
+    margin-left: 70px;
+}
+.main-3-heading{
+        font-size: 60px;
+    position: relative;
+margin-top: 150px;
+width: 85%;
+
+}
+.main-3-data{
+        margin-top: 25px;
+    font-size: 20px;
+    color: gray;
+    width: 90%;
+}
+.main-3-images{
+    display: flex;
+    position: relative;
+}
+.house-2{
+        width: 510px;
+    height: 480px;
+    border-radius: 20px;
+    position: absolute;
+    right: 135px;
+    bottom: 315px;
+}
+.main-4 {
+    height: 1050px;
+    background-color: #f7f8fd;
+}
+.newsletter-section {
+  background-color: #6a5af9;
+  color: white;
+  padding: 60px 20px;
+  border-radius: 40px;
+  text-align: center;
+  max-width: 90%;
+  height: 400px;
+  margin: 0px auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.newsletter-section h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.newsletter-section p {
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.input-icon {
+  display: flex;
+  align-items: center;
+  background-color: #594ae2;
+  border-radius: 40px;
+  padding: 10px 20px;
+  width: 400px;
+  height: 50px;
+}
+
+.input-icon .icon {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.input-icon input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  width: 400px;
+}
+.input-icon input::placeholder{
+    color: rgb(221, 216, 216);
+    opacity: 1;
+}
+.button-5 {
+  background-color: white;
+  color: #6a5af9;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-5:hover {
+  background-color: #e6e6ff;
+}
+.container-5-cards-area{
+    margin: 100px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.container-5-cards{
+height: 280px;
+width: 250px;
+}
+.container-5-card-header{
+    color: black;
+    font-size: 26px;
+    margin-top: 26px;
+}
+.p-data-5{
+    color: rgb(100, 100, 100);
+    margin-top: 20px;
+    font-size: 20px;
+}
+.footer{
+    margin-top: 100px;
+}
+.footer-text{
+
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    color: gray;
+    font-size: 20px;
+}
+.social-media{
+  margin-top: 20px;
+
+  display: flex;
+  gap: 10px;
+}
+.logo-2{
+
+    height: 50px;
+    width: 150px;
+    margin-top: 40px;
+}
+.main-4-part-2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+
