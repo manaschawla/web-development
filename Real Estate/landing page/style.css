@@ -3,6 +3,9 @@
             padding: 0;
             font-family: 'Poppins', sans-serif;
         }
+        body{
+          width: 100%;
+        }
         .header{
             height: 780px;
             background-image: url(../photos/mainBackground.png);
@@ -36,12 +39,12 @@
             list-style-type: none;
             display: flex;
             align-items: center;
-            gap: 60px;
-            margin-right: 90px;
+            gap: 3.75rem;
+            margin-right: 5.625rem;
         }
         .nav a{
             z-index: 2;
-            font-size: 20px;
+            font-size: 1.25rem;
             color: white;
             text-decoration: none;
         }
@@ -49,7 +52,7 @@
             z-index: 2;
         }
         .logo-1{
-    margin-left: 70px;
+    margin-left: 4.375rem;
     height: 42px;
     z-index: 2;
     height: 55px;
@@ -59,7 +62,7 @@
     z-index: 2;
     width: 90%;
 margin: auto;
-margin-top: 15px;
+margin-top: 1rem;
 height: 1px;
 background-color: rgb(216, 215, 215);
 position: relative;
@@ -69,24 +72,24 @@ position: relative;
     z-index: 2;
 }
 .header-heading{
-      margin: 100px 0px 0px 80px;
+      margin: 6.25rem 0px 0px 5rem;
     color: white;
-  font-size: 60px;
+  font-size: 3.75rem;
   width: 50%;
 }
 .header-data{
       width: 45%;
-      margin-top: 30px;
-  margin-left: 80px;
-  font-size: 25px;
+      margin-top: 1.875rem;
+  margin-left: 5rem;
+  font-size: 1.56rem;
   color: rgb(212, 211, 211);
 }
 .button{
     margin: 0px 0px 0px 70px;
 }
 .butt{
-    margin: 20px;
-    padding: 15px 55px 15px 55px;
+    margin: 1.25rem;
+    padding: 1rem 3.5rem;
     border-radius: 32px;
     background-color: rgb(131, 5, 250);
     color: white;
@@ -98,7 +101,7 @@ position: relative;
     margin: auto;
     border-radius: 32px;
         display: flex;
-    gap: 70px;
+    gap: 4.375rem;
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
@@ -106,7 +109,7 @@ position: relative;
     bottom: 100px;
     z-index: 2;
 }
-.logo-2{
+.logo-2-break{
     width: 150px;
     height: 100px;
     
@@ -119,12 +122,12 @@ position: relative;
     margin: auto;
     text-align: center;
     width: 50%;
-    padding-top: 40px;
-    font-size: 55px;
+    padding-top: 2.5rem;
+    font-size: 3.44rem;
     color: black;
 }
 .grid-layout{
-    margin-top: 80px;
+    margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
@@ -163,7 +166,7 @@ position: relative;
     align-items: center;
 }
 .card-data-heading{
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 .card-price{
@@ -172,8 +175,8 @@ position: relative;
     margin-left: 10px;
 }
 .detail{
-    margin-right: 15px;
-    padding: 10px 25px 10px 25px ;
+    margin-right: 1rem;
+    padding: 0.625rem 1.5625rem ;
     background-color: rgb(131, 5, 250);
     border-radius: 35px;
     border: none;
@@ -211,11 +214,18 @@ position: relative;
     background-image: url(../photos/cardImage8.png);
     transform: translateY(60px);   
 }
+.grid-cards-one:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
 .main-2{
     height: 750px;
      background-color: #f7f8fd;
      display: flex;
-     gap: 50px;
+     gap: 3.125rem;
 }
 .image-area{
     position: relative;
@@ -236,21 +246,21 @@ border-radius: 20px;
     
 }
 .text-area-heading{
-    font-size: 55px;
+    font-size: 3.44rem;
     position: relative;
-margin-top: 130px;
+margin-top: 8.125rem;
 }
 .text-area-data{
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: gray;
 }
 .bid-book{
-        margin-top: 40px;
-    padding: 15px 75px 15px 75px;
+        margin-top: 2.5rem;
+    padding: 1rem 4.69rem;
     border-radius: 32px;
     background-color: rgb(131, 5, 250);
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
     border: none;
 }
@@ -259,22 +269,22 @@ margin-top: 130px;
      background-color: #f7f8fd;
      display: flex;
      flex-direction: row;
-     gap: 50px;
+     gap: 3.125rem;
      justify-content: center;
 }
 .main-3-text{
-    margin-left: 70px;
+    margin-left: 4.375rem;
 }
 .main-3-heading{
         font-size: 60px;
     position: relative;
-margin-top: 150px;
+margin-top: 9.375rem;
 width: 85%;
 
 }
 .main-3-data{
-        margin-top: 25px;
-    font-size: 20px;
+        margin-top: 1.57rem;
+    font-size: 1.25rem;
     color: gray;
     width: 90%;
 }
@@ -297,7 +307,7 @@ width: 85%;
 .newsletter-section {
   background-color: #6a5af9;
   color: white;
-  padding: 60px 20px;
+  padding: 3.75rem 1.25rem;
   border-radius: 40px;
   text-align: center;
   max-width: 90%;
@@ -307,15 +317,15 @@ width: 85%;
 }
 
 .newsletter-section h1 {
-  font-size: 60px;
-  margin-bottom: 20px;
+  font-size: 3.75rem;
+  margin-bottom: 1.25rem;
   font-weight: bold;
 }
 
 .newsletter-section p {
-  font-size: 20px;
+  font-size: 1.25rem;
   max-width: 600px;
-  margin: 0 auto 30px;
+  margin: 0 auto 1.88rem;
   line-height: 1.6;
   opacity: 0.9;
 }
@@ -324,7 +334,7 @@ width: 85%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 1rem;
 }
 
 .input-icon {
@@ -332,14 +342,14 @@ width: 85%;
   align-items: center;
   background-color: #594ae2;
   border-radius: 40px;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   width: 400px;
   height: 50px;
 }
 
 .input-icon .icon {
-  margin-right: 10px;
-  font-size: 30px;
+  margin-right: 0.625rem;
+  font-size: 1.88rem;
 }
 
 .input-icon input {
@@ -347,7 +357,7 @@ width: 85%;
   border: none;
   outline: none;
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
   width: 400px;
 }
 .input-icon input::placeholder{
@@ -358,22 +368,27 @@ width: 85%;
   background-color: white;
   color: #6a5af9;
   border: none;
-  padding: 12px 24px;
+  padding: 0.75rem 1.5rem;
   border-radius: 30px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   width: 200px;
   cursor: pointer;
   transition: 0.3s;
 }
+a:focus, .butt:focus, .detail:focus, .button-5:focus {
+  outline: 2px dashed #fff;
+  outline-offset: 4px;
+}
+
 
 .button-5:hover {
   background-color: #e6e6ff;
 }
 .container-5-cards-area{
-    margin: 100px;
+    margin: 6.25rem;
     display: flex;
-    gap: 40px;
+    gap: 2.5rem;
     align-items: center;
     justify-content: center;
 }
@@ -383,27 +398,27 @@ width: 250px;
 }
 .container-5-card-header{
     color: black;
-    font-size: 26px;
+    font-size: 1.63rem;
     margin-top: 26px;
 }
 .p-data-5{
     color: rgb(100, 100, 100);
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
 }
 .footer{
-    margin-top: 100px;
+    margin-top: 6.25rem;
 }
 .footer-text{
 
     height: 50px;
     width: 250px;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     color: gray;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .social-media{
-  margin-top: 20px;
+  margin-top: 1.25rem;
 
   display: flex;
   gap: 10px;
@@ -412,7 +427,7 @@ width: 250px;
 
     height: 50px;
     width: 150px;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 .main-4-part-2{
     display: flex;
@@ -422,7 +437,12 @@ width: 250px;
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+  body{
+    width: 100%;
+    margin: 0 auto;
+    transition: 1s ease-in-out;
+  }
   nav {
     flex-direction: column;
     gap: 15px;
@@ -443,7 +463,11 @@ width: 250px;
 .voiled-bg{
     position: relative;
 }
-
+.logo-2-break{
+    width: 50px;
+    height: 50px;
+    
+}
   .logo-1 {
     margin-left: 0;
   }
@@ -489,7 +513,15 @@ width: 250px;
     text-align: center;
     height: auto;
   }
-
+.bg-2{
+  width: 585px;
+}
+.voiled-bg{
+  width: 585px;
+}
+.image-area{
+  width: 585px;
+}
   .house-1
   {
 
@@ -497,15 +529,22 @@ width: 250px;
     bottom: 140px;
 border-radius: 20px;
     width: 72%;
-    left: 135px;
+    left: 115px;
     height: 450px;
+  }
+  .main-3-images{
+    margin: 1.5rem 0px;
+  }
+  .main-3-text{
+    margin-top: 1rem;
   }
 .house-2{
     position: absolute;
     border-radius: 20px;
     width: 72%;
-    height: 450px;
-    top: -10px;
+    height: 388px;
+    top: -25px;
+    right: 113px;
 }
   .text-area-heading,
   .main-3-heading {
@@ -553,7 +592,7 @@ border-radius: 20px;
 
 
 
-@media (max-width: 992px) and (min-width: 601px) {
+@media (max-width: 992px) and (min-width: 700px) {
   nav {
     flex-direction: column;
     gap: 20px;
@@ -590,9 +629,13 @@ border-radius: 20px;
   }
 
   .main-1 {
-    height: 2600px;
+    height: 2500px;
   }
-
+.logo-2-break{
+    width: 50px;
+    height: 50px;
+    
+}
   .grid-layout {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 5rem;
@@ -622,22 +665,25 @@ border-radius: 20px;
     width: 100%;
     position: relative;
   }
-
+  .main-3-images{
+    margin: 1.5rem 0px;
+  }
+  .main-3-text{
+    margin-top: 1rem;
+  }
   .house-1 {
-    width: 75%;
-    height: auto;
+    width: 68%;
     position: absolute;
-    left: 120px;
-    bottom: 180px;
+    left: 159px;
+    bottom: 152px;
     border-radius: 20px;
   }
 
   .house-2 {
-    width: 75%;
-    height: auto;
+    width: 73%;
     position: absolute;
-    right: 120px;
-    top: -20px;
+    right: 132px;
+    top: -45px;
     border-radius: 20px;
   }
 
@@ -677,9 +723,8 @@ border-radius: 20px;
   }
 
   .container-5-cards-area {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+    display: none;
+    flex-direction: column;
     margin: 50px 20px;
   }
 
